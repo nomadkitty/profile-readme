@@ -8,10 +8,10 @@ const instance = new Typewriter("#typewriter", {
 
 instance
   .typeString("Hi there, I'm Jojo Zhang.")
-  .pauseFor(500)
+  .pauseFor(1000)
   .deleteAll()
   .typeString("I'm a full stack<br>web developer.")
-  .pauseFor(500)
+  .pauseFor(1000)
   // .deleteChars(26)
   // .typeString(
   //   "passionate about<br>learning new technologies<br>and making ideas come true.",
@@ -19,6 +19,6 @@ instance
   // .pauseFor(500)
   .deleteAll()
   .typeString("Check out my work at<br>github.com/nomadkitty")
-  .pauseFor(500)
+  .pauseFor(1000)
   .deleteAll()
   .start();
