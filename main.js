@@ -7,11 +7,11 @@ const instance = new Typewriter("#typewriter", {
 });
 
 instance
-  .typeString("Hi there, I'm Jojo Zhang.")
-  .pauseFor(1000)
+  .typeString("Hi there, I'm Jojo.")
+  .pauseFor(500)
   .deleteAll()
-  .typeString("I'm a full stack<br>web developer.")
-  .pauseFor(1000)
+  .typeString("I'm a software developer.")
+  .pauseFor(500)
   // .deleteChars(26)
   // .typeString(
   //   "passionate about<br>learning new technologies<br>and making ideas come true.",
@@ -19,6 +19,6 @@ instance
   // .pauseFor(500)
   .deleteAll()
   .typeString("Check out my work at<br>github.com/nomadkitty")
-  .pauseFor(1000)
+  .pauseFor(700)
   .deleteAll()
   .start();
