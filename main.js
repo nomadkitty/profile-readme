@@ -8,17 +8,17 @@ const instance = new Typewriter("#typewriter", {
 
 instance
   .typeString("Hi there, I'm Jojo Zhang.")
-  .pauseFor(1000)
+  .pauseFor(500)
   .deleteAll()
-  .typeString("I'm a full stack web developer.")
-  .pauseFor(1000)
-  .deleteChars(27)
+  .typeString("I'm a full stack<br>web developer.")
+  .pauseFor(500)
+  .deleteChars(26)
   .typeString(
-    "passionate about learning new technologies<br>and making ideas come true.",
+    "passionate about<br>learning new technologies<br>and making ideas come true.",
   )
-  .pauseFor(1000)
+  .pauseFor(500)
   .deleteAll()
   .typeString("Check out my work at<br>github.com/nomadkitty")
-  .pauseFor(1000)
+  .pauseFor(500)
   .deleteAll()
   .start();
